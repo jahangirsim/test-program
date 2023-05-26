@@ -15,8 +15,8 @@ void main(){
 
   nameAndAge.sort((a, b) => a.age.compareTo(b.age));
   for(Person nameAge in nameAndAge){
-   // print("${nameAge.name} (${nameAge.age})");
-    print(nameAge);
+   print("${nameAge.name} (${nameAge.age})");
+   // print(nameAge);
   }
 }
 
